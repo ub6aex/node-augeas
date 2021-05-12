@@ -17,9 +17,7 @@
 #include <node.h>
 #include <nan.h>
 
-extern "C" { // Yes, that bad
 #include <augeas.h>
-}
 
 using namespace v8;
 template<class T>
